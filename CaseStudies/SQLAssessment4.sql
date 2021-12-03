@@ -24,3 +24,16 @@ and a.start_date < = b.END_date
 and a.end_date >= b.START_date
 
 /*******************INNER JOIN OR LEFT JOIN IT DOESNT MATTER HERE COZ LEFT JOIN HAS NULL'S***************************/
+
+/******************** THE BELOW ONE ALSO GIVES SAME RESULT *********************************/
+
+SELECT u.user_id,CASE WHEN overlap_cnt > 0 THEN 1 ELSE 0 END AS overlap
+  FROM 
+  (SELECT u1.user_id,SUM(CASE WHEN u2.user_id IS NULL THEN 0 ELSE 1 END) AS overlap_cnt
+          FROM subscriptions AS u1
+          JOIN subscriptions AS u2
+            ON u1.start_date <= u2.end_date
+           AND u1.end_date >= u2.start_date
+           AND u1.user_id != u2.user_id
+         GROUP BY u1.user_id) AS u
+
