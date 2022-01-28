@@ -12,4 +12,4 @@
 8. Case Study Analysis on Messages and Converstations
 9. Case Study Analysis with some Querying on ratings
 10. % of users were confirmed per day and calculate unique phone numbers
-11. ROW Functions like LAG, LEAD, ROWS BETWEEN PRECEEDING , UNBOUNDED PRECEEDING *(Also refer SQL_FUNCTIONS_ON_ROWS.sql)*
+11. ROW Functions like LAG, LEAD, ROWS BETWEEN PRECEEDING , UNBOUNDED PRECEEDING ,NTILE *(Also refer SQL_FUNCTIONS_ON_ROWS.sql)*
