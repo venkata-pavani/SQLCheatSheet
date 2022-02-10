@@ -13,3 +13,5 @@
 9. Case Study Analysis with some Querying on ratings
 10. % of users were confirmed per day and calculate unique phone numbers
 11. ROW Functions like LAG, LEAD, ROWS BETWEEN PRECEEDING , UNBOUNDED PRECEEDING ,NTILE *(Also refer SQL_FUNCTIONS_ON_ROWS.sql)*
+12. SQL ROW FUNCTIONS EXAMPLES
+13. LEAST AND GREATEST functions
