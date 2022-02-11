@@ -15,3 +15,4 @@
 11. ROW Functions like LAG, LEAD, ROWS BETWEEN PRECEEDING , UNBOUNDED PRECEEDING ,NTILE *(Also refer SQL_FUNCTIONS_ON_ROWS.sql)*
 12. SQL ROW FUNCTIONS EXAMPLES
 13. LEAST AND GREATEST functions
+14. CTE and SUB QUERY in one query User Converted First Touch Attribution
