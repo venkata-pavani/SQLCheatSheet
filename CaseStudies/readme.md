@@ -14,7 +14,7 @@
 10. % of users were confirmed per day and calculate unique phone numbers
 11. ROW Functions like LAG, LEAD, ROWS BETWEEN PRECEEDING , UNBOUNDED PRECEEDING ,NTILE *(Also refer SQL_FUNCTIONS_ON_ROWS.sql)*
 12. SQL ROW FUNCTIONS EXAMPLES
-13. LEAST AND GREATEST functions
+13. LEAST AND GREATEST functions on NUMERICALS VS STRING Values
 14. CTE and SUB QUERY in one query User Converted First Touch Attribution
 15. Longest Winning Streak Calculation on a table -- two sub queries and rank functions
 16. Importance of COALESCE function 
