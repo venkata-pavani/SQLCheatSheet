@@ -16,5 +16,5 @@
 12. SQL ROW FUNCTIONS EXAMPLES
 13. LEAST AND GREATEST functions
 14. CTE and SUB QUERY in one query User Converted First Touch Attribution
-15.Longest Winning Streak Calculation on a table -- two sub queries and rank functions
+15. Longest Winning Streak Calculation on a table -- two sub queries and rank functions
 16. Importance of COALESCE function 
